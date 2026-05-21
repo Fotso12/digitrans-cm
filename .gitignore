@@ -1,0 +1,23 @@
+# Java
+target/
+*.class
+*.jar
+
+# Node
+node_modules/
+dist/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Secrets
+*.env
+application-prod.properties
