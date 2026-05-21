@@ -8,6 +8,20 @@ Ce document est le rapport de sécurisation demandé pour la Partie II de l'épr
 
 ## II.2 Stratégie de sécurité
 
+## II.1 Objectif général de la Partie
+
+Cette partie vise à démontrer la capacité à concevoir, implémenter et sécuriser une solution blockchain intégrée au système d'information DIGITRANS-CM. Les objectifs principaux sont :
+
+- Présenter le choix de la plateforme blockchain adapté au contexte (souveraineté des données, latence, coût).
+- Décrire l'architecture réseau et d'hébergement (nœuds on‑premise vs cloud, canaux privés).
+- Fournir les smart contracts ou chaincodes nécessaires à la traçabilité des marchandises, avec commentaires et bonnes pratiques de sécurité.
+- Détailler la stratégie de sécurité (IAM, chiffrement, rotation de clés, plan de réponse aux incidents).
+- Exposer les procédures opérationnelles (procédure en cas de clé compromise, onboarding/outboarding des participants).
+
+Les livrables attendus pour cette partie : le présent rapport de sécurisation, un jeu d'exemples de smart contract (PoC), et un support de présentation pour la soutenance.
+
+## II.2 Stratégie de sécurité
+
 ### 1) Quatre risques de sécurité clés
 - Fuite de données sensibles (données RH, financières, clients) — exfiltration de la base de données ou sauvegardes non chiffrées.
 - Compromission d'identifiants et de clés (clé privée d'un nœud blockchain, credentials DB, secrets CI/CD).
