@@ -65,7 +65,7 @@ public class SecurityConfig {
         config.setExposedHeaders(List.of("Authorization"));
         
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
-        source.registerCorsMapping("/**", config);
+        source.registerCorsConfiguration("/**", config);
         return source;
     }
 }
