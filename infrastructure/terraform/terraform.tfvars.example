@@ -1,0 +1,6 @@
+aws_region = "us-east-1"
+environment = "dev"
+public_key_path = "~/.ssh/digitrans-key.pub"
+allowed_ssh_cidr = ["0.0.0.0/0"]
+db_password = "DigitransDB2026!"
+alert_email = "admin@agrocam.cm"
