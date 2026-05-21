@@ -75,6 +75,12 @@ jobs:
         with:
           name: tfplan
           path: infrastructure/terraform
+      - name: Terraform init
+        working-directory: infrastructure/terraform
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        run: terraform init -input=false
       - name: Terraform apply
         working-directory: infrastructure/terraform
         env:
