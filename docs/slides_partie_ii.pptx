@@ -1,0 +1,7 @@
+This is a placeholder PPTX file. To generate a real PowerPoint:
+
+Option A (locally): install `pandoc` and run:
+
+  pandoc -s -o docs/slides_partie_ii.pptx docs/slides_partie_ii.md
+
+Option B (I can generate it for you): tell me and I will create a real PPTX from the Markdown.
