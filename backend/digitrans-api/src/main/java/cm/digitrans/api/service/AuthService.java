@@ -7,6 +7,7 @@ import cm.digitrans.api.repository.UtilisateurRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
+import cm.digitrans.api.shared.security.JwtService;
 
 @Service
 @RequiredArgsConstructor
